@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="p5.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title> Music Run </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+   
+   <script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyADXhcH9nt8XMkh_9fpB_KSqaUC4snPjz8",
+    authDomain: "music-run-d0897.firebaseapp.com",
+    databaseURL: "https://music-run-d0897-default-rtdb.firebaseio.com",
+    projectId: "music-run-d0897",
+    storageBucket: "music-run-d0897.appspot.com",
+    messagingSenderId: "826726637361",
+    appId: "1:826726637361:web:6e7a0d3daf501115075a10"
+};
+
+      firebase.initializeApp(firebaseConfig);
+
+    </script>
+
+</head>
+
+<body>
+
+    <script src="Game.js"></script>
+    <script src="Form.js"></script>
+    <script src="Player.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
